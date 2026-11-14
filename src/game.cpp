@@ -6,7 +6,6 @@ const float player_speed = 500.0f;
 const float player_jump_force = 500.0f;
 const Vec2 player_start_pos = {(screen_size.x / 2) - (player_size / 2), (screen_size.y / 2) - (player_size / 2)};
 
-const int FPS = 100;
 const float ground_height = 100.0f;
 const float gravity = 1000.0f;
 
