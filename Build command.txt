@@ -1,0 +1,1 @@
+g++ src/game.cpp raylib/libraylib.a -o app/game.exe -O3 -I raylib -lopengl32 -lgdi32 -lwinmm -mwindows -static
