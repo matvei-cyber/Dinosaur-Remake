@@ -1,3 +1,2 @@
-**DEBUG:** g++ src/game.cpp raylib/libraylib.a -o app/game.exe -O3 -I raylib -lopengl32 -lgdi32 -lwinmm -DDEBUG -static
-
-**RELEASE:** g++ src/game.cpp raylib/libraylib.a -o app/game.exe -O3 -I raylib -lopengl32 -lgdi32 -lwinmm -mwindows -static
+**DEBUG:**      g++ src/game.cpp raylib/libraylib.a -o app/game.exe -O3 -I raylib -lopengl32 -lgdi32 -lwinmm -DDEBUG -static
+**RELEASE:**    g++ src/game.cpp raylib/libraylib.a -o app/game.exe -O3 -I raylib -lopengl32 -lgdi32 -lwinmm -mwindows -static
